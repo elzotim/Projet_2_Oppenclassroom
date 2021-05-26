@@ -1,0 +1,347 @@
+body{
+    font-family: 'Raleway', serif;
+    margin: 0px;
+    line-height: 1;
+    margin: 0;
+	  padding: 0;
+	  border: 0;
+	  font-size: 100%;
+	  font: inherit;
+	  vertical-align: baseline;
+    font-family: "Raleway", sans-serif;
+
+    }
+  #bloc-page
+{
+        
+  max-width: 100%;
+  justify-content: center;
+  margin: auto;
+  display: block;
+  font-family: "Raleway", sans-serif;
+}
+
+header{
+    
+  display: flex;
+ 
+  justify-content:space-between; 
+  align-items: center;
+  flex-direction:row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+  }
+
+
+header div img
+{
+  width: 100px;
+}
+.menu{
+  display: flex;
+  flex-direction:column-reverse; 
+
+}
+.Menu2 a{
+   font-size: large;
+   text-decoration: none;
+   padding-top: 20px;
+
+}
+.Menu2{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-top:2em;
+}
+
+  
+  
+  #hebergement{
+   /* margin: 25px 25px;*/
+    font-family: "Raleway", sans-serif; 
+  }
+  #hebergement h2 
+  {
+    font-size: larger;
+  }
+
+
+/*les rechercher d'hebergement*/
+form{
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-left: 0px;
+  height: 50px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  border-radius: 20px 0px 0px 20px;
+}
+form .map
+{
+  background-color: #F2F2F2;
+  border-radius: 20px 0px 0px 20px;
+  justify-content: center;
+  padding: 20px;
+  font-size: 12px;
+  
+}
+
+form  .search
+{
+  font-weight: bold;
+  background-color: white;
+  color:red;
+  font-size: 15px;
+  padding: 20px;
+  border: 1px solid  #f2f2f2;  
+}
+
+
+.loupe
+{
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  max-width: 100%;
+  padding: 19px;
+  align-self: center;
+  border-radius: 0px 20px 20px 0px;
+  border: none;
+  background-color: #0065fc;
+  color: white;}
+  
+  .loupe:hover{
+    background-color: #deebff;
+    color: #0065fc;
+  }
+  .loupe  span i{
+    display: block;
+    background-color: #0065fc;
+    color: white;
+      }
+      .rechercher
+      {
+        display: none;
+      }
+      
+      /******************************************************
+      /*section et puis dive*/
+    section .filtre
+      {
+        display: flex;
+        margin:auto;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        margin: 25px;
+      }
+      /*le titre filter*/
+      section .filtre .titre{
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 20px;
+      }
+
+
+
+section .filtre .filtre1{
+    
+  font-size: 15px;
+  height: 43px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid #f2f2f2;
+  margin-right: 20px;
+  border-radius: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  justify-content:start;
+  
+}
+
+.filtre i{
+    width: 16px;
+    align-content: center;
+    padding: 16px;
+    border-radius: 100px;
+    color: #0065fc;
+    background-color: #deebff;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: -5px;
+    text-align: center;
+  }
+  .filtre i:hover {
+    color: #deebff;
+    background-color: #0065fc;
+  }
+  
+  
+/*les Activites*/
+
+/****************/
+.bloc_information 
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+  .bloc_information p{
+    margin-left: 15px;
+  }
+/*********************************************************************************/
+/*la grande section*/
+.hebergpopulaire
+{
+  display: flex;
+  height: auto;
+  
+  justify-content:space-around;
+  flex-direction:column-reverse;
+  background-color:white;
+}
+
+.hebergement
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  
+
+}
+.hebergement h2{
+  margin: 25px;
+ 
+}
+
+
+
+
+.herbergementMarseille div  figure
+{ 
+ background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px #CDCAD1;
+  text-align: center;
+  border: white 1px solid;
+  
+}
+
+.herbergementMarseille figure  img{
+  
+  height: 6em;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+  width:100%;
+}
+/********************************************************************/
+
+ aside{
+    flex-direction: column;
+    background-color: #f2f2f2;
+    
+  }
+  aside h2
+  {
+     font-size: larger;
+  }
+  .etoiles
+  {
+    color: #0065fc;
+    font-size: 11px;
+    margin-left:auto ;
+  }
+    aside .section2 
+{
+  display: flex ;
+  flex-wrap: wrap;
+  flex-direction:row;
+  border-radius: 20px 20px 20px 20px;
+  border: 2px solid white;
+  justify-content:start;
+  margin: 10px 20px;
+  background-color: white;
+
+}
+
+
+aside .section2  img{ 
+    
+    height: 18vh;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    margin-right:1em;
+    
+}
+
+
+    
+
+
+/******************************************************/
+/*********************************************************************************
+*/
+
+/*********************************************************************/
+
+.activities {
+  padding: 1em;
+}
+
+.activity {
+  
+  border-radius: 2em 2em 2em 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-img {
+  display: block;
+  border-radius: 2em 2em 0 0;
+  max-width: 100%;
+  min-height: 10em;
+  background-size: cover;
+  background-position: center center;
+  flex: 2;
+}
+/**********************************le pied de Page************************************************/
+/**********************************le pied de Page************************************************/
+
+footer {
+  background: #F2F2F2;
+}
+
+footer a {
+  display:flex;
+  text-decoration: none;
+  padding-top: 1em;
+  color: black;
+
+}
+
+.footer-container {
+  padding: 1em;
+}
+
+
+.activity h6 {
+  
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0;
+  padding: 1em;
+}
