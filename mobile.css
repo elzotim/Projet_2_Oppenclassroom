@@ -3,64 +3,69 @@ body{
     margin: 0px;
     line-height: 1;
     margin: 0;
-	  padding: 0;
-	  border: 0;
-	  font-size: 100%;
-	  font: inherit;
-	  vertical-align: baseline;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
     font-family: "Raleway", sans-serif;
 
     }
-  #bloc-page
-{
-        
-  max-width: 100%;
-  justify-content: center;
-  margin: auto;
-  display: block;
-  font-family: "Raleway", sans-serif;
+#bloc-page{
+    max-width: 100%;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    font-family: "Raleway", sans-serif;
 }
+/***************************************************************
+*****************************le Header et le mun ***************************/
 
 header{
-    
-  display: flex;
- 
-  justify-content:space-between; 
-  align-items: center;
-  flex-direction:row;
-  margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.nav_logo{
   margin-right: auto;
-  width: 100%;
-  
-  }
-
-
-header div img
-{
+  margin-left: 25px;
+}
+.nav_logo img{
   width: 100px;
+}
+header a{
+  padding: 30px 40px;
 }
 .menu{
   display: flex;
-  flex-direction:column-reverse; 
-
-}
-.Menu2 a{
-   font-size: large;
-   text-decoration: none;
-   padding-top: 20px;
-
-}
-.Menu2{
-  display: flex;
   flex-direction: row;
-  justify-content:space-between;
-  margin-top:2em;
+  background-color: cyan;
+}
+.menu a{
+  color: black;
+}
+.menu a:hover{
+  color: #0065fc;
+  border-bottom: 3px solid #0065fc;
+}
+#bloc_inscrire a{
+  color: #0065fc;
+  font-weight: bold;
 }
 
-  
-  
+
+
+/**************************************
+*****************************************************
+*/
   #hebergement{
-   /* margin: 25px 25px;*/
+  
     font-family: "Raleway", sans-serif; 
   }
   #hebergement h2 
@@ -284,7 +289,7 @@ aside .section2  img{
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
     margin-right:1em;
-    
+    max-width: 10em;
 }
 
 
