@@ -45,7 +45,6 @@ header a{
 .menu{
   display: flex;
   flex-direction: row;
-  background-color: cyan;
 }
 .menu a{
   color: black;
@@ -62,19 +61,23 @@ header a{
 
 
 /**************************************
-*****************************************************
+***********************Hebergement-information******************************
 */
   #hebergement{
   
-    font-family: "Raleway", sans-serif; 
+    font-family: "Raleway", sans-serif;
+    margin-left: 25px; 
   }
-  #hebergement h2 
-  {
-    font-size: larger;
+  #hebergement{
+    font-weight:lighter;
   }
 
 
-/*les rechercher d'hebergement*/
+/***********************************les rechercher d'hebergement********************/
+/***********************************les rechercher d'hebergement********************/
+/***********************************les rechercher d'hebergement********************/
+/***********************************les rechercher d'hebergement********************/
+
 form{
   padding-top: 20px;
   padding-bottom: 40px;
@@ -133,8 +136,10 @@ form  .search
         display: none;
       }
       
-      /******************************************************
-      /*section et puis dive*/
+      /***************************************************************************/
+      /***************************************************************************/
+      /**********************section et puis dive*********************************/
+
     section .filtre
       {
         display: flex;
@@ -146,7 +151,12 @@ form  .search
         align-items: center;
         margin: 25px;
       }
-      /*le titre filter*/
+      /***************************************************************************/
+      /**************************************************************************
+       les filtres
+      /***************************************************************************/
+      /***************************************************************************/
+      
       section .filtre .titre{
         font-size: 18px;
         font-weight: bold;
@@ -190,9 +200,8 @@ section .filtre .filtre1{
   }
   
   
-/*les Activites*/
-
-/****************/
+/************************************************
+*************les information***********************************************/
 .bloc_information 
 {
   margin-top: 30px;
@@ -262,6 +271,7 @@ section .filtre .filtre1{
   aside h2
   {
      font-size: larger;
+     margin-left: 25px;
   }
   .etoiles
   {
