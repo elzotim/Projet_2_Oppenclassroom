@@ -20,6 +20,7 @@
     .menu a:hover{
         color: #0065fc;
         border-top: 2px solid #0065fc;
+		margin-top:0px ;
       }
 	
 	#hebergement{

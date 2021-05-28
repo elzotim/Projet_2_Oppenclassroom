@@ -48,14 +48,15 @@ header a{
 }
 .menu a{
   color: black;
+  text-decoration: none;
+  margin: 10px;
 }
-.menu a:hover{
-  color: #0065fc;
-  border-bottom: 3px solid #0065fc;
-}
+
 #bloc_inscrire a{
   color: #0065fc;
   font-weight: bold;
+  text-decoration: none;
+  
 }
 
 
@@ -102,7 +103,6 @@ form  .search
 {
   font-weight: bold;
   background-color: white;
-  color:red;
   font-size: 15px;
   padding: 20px;
   border: 1px solid  #f2f2f2;  
@@ -293,7 +293,7 @@ section .filtre .filtre1{
 }
 
 
-aside .section2  img{ 
+.lesPlusPopulaires .section2  img{ 
     
     height: 18vh;
     border-radius: 20px 0px 0px 20px;
