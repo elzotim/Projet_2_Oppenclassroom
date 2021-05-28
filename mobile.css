@@ -69,8 +69,9 @@ header a{
     font-family: "Raleway", sans-serif;
     margin-left: 25px; 
   }
-  #hebergement{
+  #hebergement h3{
     font-weight:lighter;
+    font-size: 15px;
   }
 
 
@@ -222,7 +223,6 @@ section .filtre .filtre1{
 {
   display: flex;
   height: auto;
-  
   justify-content:space-around;
   flex-direction:column-reverse;
   background-color:white;
@@ -238,6 +238,7 @@ section .filtre .filtre1{
 }
 .hebergement h2{
   margin: 25px;
+  font-size: large;
  
 }
 
@@ -263,23 +264,31 @@ section .filtre .filtre1{
 }
 /********************************************************************/
 
- aside{
+ .lesPlusPopulaires{
     flex-direction: column;
     background-color: #f2f2f2;
     
   }
-  aside h2
+  .lesPlusPopulaires >*{
+    flex: 1;
+  }
+  .lesPlusPopulaires h2
   {
      font-size: larger;
      margin-left: 25px;
   }
+  .lesPlusPopulaires div .etoiles{
+    display: block;
+    margin-top: 30px;
+    
+  }
   .etoiles
-  {
+  { 
     color: #0065fc;
     font-size: 11px;
     margin-left:auto ;
   }
-    aside .section2 
+   .lesPlusPopulaires .section2 
 {
   display: flex ;
   flex-wrap: wrap;
@@ -289,17 +298,19 @@ section .filtre .filtre1{
   justify-content:start;
   margin: 10px 20px;
   background-color: white;
+  
 
 }
 
 
 .lesPlusPopulaires .section2  img{ 
     
-    height: 18vh;
-    border-radius: 20px 0px 0px 20px;
-    object-fit: cover;
-    margin-right:1em;
-    max-width: 10em;
+  height: 18vh;
+  border-radius: 20px 0px 0px 20px;
+  object-fit: cover;
+  margin-right:1em;
+  width: 9em;
+    
 }
 
 
@@ -333,6 +344,14 @@ section .filtre .filtre1{
   background-position: center center;
   flex: 2;
 }
+.activity h6 {
+  
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0;
+  padding: 1em;
+}
+
 /**********************************le pied de Page************************************************/
 /**********************************le pied de Page************************************************/
 
@@ -353,10 +372,3 @@ footer a {
 }
 
 
-.activity h6 {
-  
-  font-size: 1.1em;
-  font-weight: bold;
-  margin: 0;
-  padding: 1em;
-}

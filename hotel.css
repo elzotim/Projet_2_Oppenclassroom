@@ -1,9 +1,10 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 520px) {
 	.footer-container {
 		
 		display: flex;
 		max-width: auto;
 		margin: auto;
+		
 	}
 	
 	.footer-container > * {
@@ -11,10 +12,10 @@
 	}
 }
 
-@media screen and (min-width: 450px) {
-	.activities-container {
-		
+@media screen and (min-width: 600px) {
+	.activities-container {		
 		margin: auto;
+		
 		
 	}
     .menu a:hover{
@@ -22,17 +23,15 @@
         border-top: 2px solid #0065fc;
 		margin-top:0px ;
       }
-	
-	#hebergement{
-		margin: 0px 25px ;
-	}
 	.hebergpopulaire 
-	{
-		
+	{		
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: space-between;
 		margin: 0px 25px;
+		
+		
+		
 		
 	}
 	
@@ -41,43 +40,21 @@
 		flex: 2;
 		display: flex;
 		flex-direction: column;
-		background-color:#f2f2f2;
-		margin-right: 3vh;
-		border-radius: 20px 20px 20px 20px;
+		border-radius: 20px 20px 20px 20px;	
+		background-color: #f2f2f2;			
 	}
-	
 	.lesPlusPopulaires{
-		background-color: #f2f2f2;
 		border-radius: 20px 20px 20px 20px;
-        
+        background-color: red;
+		
 	}
-	.lesPlusPopulaires h2{
-		font-size: larger;
-		margin-left: 25px;
-	}
-	.lesPlusPopulaires .section2 img{
-		max-width: 25vh;
-		margin-right: 2vh;
-		height: 18vh;
-	}
-    
-	.lesPlusPopulaires .section2 
-	{
-		display: flex;
-		flex-direction: row;
-		border-radius: 20px 20px 20px 20px;
-		border: 2px solid white;
-		justify-content: start;
-		margin: 10px 20px;
-		background-color: white;
-		max-width: max-content; 
-	
-	}
+
 	.herbergementMarseille{
 		display: flex;
 		flex-direction:row;
 		justify-content: space-between;
         flex-wrap: nowrap;
+		
 			
 	}
     .herbergementMarseille >*{ 
@@ -91,8 +68,11 @@
 	.loupe  span i  
 			{
 				display: none;
-			}}
-	@media screen and (min-width: 800px) {
+			}
+		
+		
+		
+	
 	.activities-container {
 			display: flex;
 			max-width: none;
@@ -113,4 +93,17 @@
 			flex: 1;
 		}
 	}
-	
+	@media screen and (min-width: 950px) {
+		.hebergpopulaire 
+	{		
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		
+		
+		
+		
+	}
+.hebergement{
+	margin-right: 25px;
+}}
