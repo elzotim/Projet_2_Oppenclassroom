@@ -17,15 +17,17 @@
 	}
 
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 605px) {
 	.activities-container {		
-		margin: auto;
-		
-		
+		margin: auto;	
+	}
+	header{
+		display: flex;
 	}
 	.menu{
 		border-bottom: none;
 		flex: 0;
+		order: 0;
 	}
     .menu a:hover{
 		color: #0065fc;
