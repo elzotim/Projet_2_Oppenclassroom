@@ -9,7 +9,7 @@ body{
 	font: inherit;
 	vertical-align: baseline;
     font-family: "Raleway", sans-serif;
-
+  
     }
 #bloc-page{
     max-width: 100%;
@@ -33,29 +33,41 @@ header{
     margin-bottom: 20px;
 }
 .nav_logo{
-  margin-right: auto;
-  margin-left: 25px;
+    margin-right: auto;
+    margin-left: 25px;
 }
 .nav_logo img{
-  width: 100px;
+    width: 100px;
 }
 header a{
-  padding: 30px 40px;
+    padding: 30px 40px;
 }
 .menu{
-  display: flex;
-  flex-direction: row;
-}
+    display: flex;
+    flex-direction: row;
+    order: 3;
+    border-bottom: 2px solid #F2F2F2;
+    flex: 1 100%;
+  
+   }
+   #menu_hebergements,#menu_activites{
+    flex: 0 100%;
+   }
 .menu a{
-  color: black;
-  text-decoration: none;
-  margin: 10px;
+   color: black;
+   text-decoration: none;
+ 
 }
+.menu a:hover{
+   color: #0065fc;
+   border-bottom: 2px solid #0065fc;
+   margin-top:0px ;
+  }
 
 #bloc_inscrire a{
-  color: #0065fc;
-  font-weight: bold;
-  text-decoration: none;
+   color: #0065fc;
+   font-weight: bold;
+   text-decoration: none;
   
 }
 
@@ -73,22 +85,25 @@ header a{
     font-weight:lighter;
     font-size: 15px;
   }
+  #hebergement h2{
+    
+    font-size: 20px;
+  }
 
-
-/***********************************les rechercher d'hebergement********************/
-/***********************************les rechercher d'hebergement********************/
-/***********************************les rechercher d'hebergement********************/
-/***********************************les rechercher d'hebergement********************/
+/***********************************les recherches d'hebergement********************/
+/***********************************les recherches d'hebergement********************/
+/***********************************les recherches d'hebergement********************/
+/***********************************les recherches d'hebergement********************/
 
 form{
-  padding-top: 20px;
-  padding-bottom: 40px;
-  margin-left: 0px;
-  height: 50px;
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  border-radius: 20px 0px 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-left: 0px;
+    height: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    border-radius: 20px 0px 0px 20px;
 }
 form .map
 {
@@ -219,7 +234,7 @@ section .filtre .filtre1{
   }
 /*********************************************************************************/
 /*la grande section*/
-.hebergpopulaire
+#hebergpopulaire
 {
   display: flex;
   height: auto;
@@ -233,13 +248,11 @@ section .filtre .filtre1{
   display: flex;
   flex-wrap: wrap;
   flex-direction:column;
-  
 
 }
 .hebergement h2{
   margin: 25px;
   font-size: large;
- 
 }
 
 
@@ -269,14 +282,22 @@ section .filtre .filtre1{
     background-color: #f2f2f2;
     
   }
+  .bloc_titre_populaires {
+    display: flex;
+    font-weight: bold;
+    justify-content:space-between;
+    font-weight: bold;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 13px;
+    margin:10px 20px;
+    
+  }
   .lesPlusPopulaires >*{
     flex: 1;
   }
-  .lesPlusPopulaires h2
-  {
-     font-size: larger;
-     margin-left: 25px;
-  }
+  
+  
   .lesPlusPopulaires div .etoiles{
     display: block;
     margin-top: 30px;
@@ -297,7 +318,7 @@ section .filtre .filtre1{
   border: 2px solid white;
   justify-content:start;
   margin: 10px 20px;
-  background-color: white;
+  
   
 
 }
@@ -323,7 +344,7 @@ section .filtre .filtre1{
 
 /*********************************************************************/
 
-.activities {
+#activities {
   padding: 1em;
 }
 

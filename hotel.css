@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 520px) {
 	.footer-container {
 		
@@ -10,29 +12,33 @@
 	.footer-container > * {
 		flex: 1;
 	}
-}
+	header{
+		display: flex;
+	}
 
+}
 @media screen and (min-width: 600px) {
 	.activities-container {		
 		margin: auto;
 		
 		
 	}
+	.menu{
+		border-bottom: none;
+		flex: 0;
+	}
     .menu a:hover{
-        color: #0065fc;
-        border-top: 2px solid #0065fc;
+		color: #0065fc;
+		border-top: 2px solid #0065fc;
 		margin-top:0px ;
-      }
-	.hebergpopulaire 
+		border-bottom:none ;
+	  }
+	#hebergpopulaire 
 	{		
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		margin: 0px 25px;
-		
-		
-		
-		
+		margin: 0px 25px;		
 	}
 	
 	.hebergement
@@ -44,9 +50,7 @@
 		background-color: #f2f2f2;			
 	}
 	.lesPlusPopulaires{
-		border-radius: 20px 20px 20px 20px;
-        background-color: red;
-		
+		border-radius: 20px 20px 20px 20px;	
 	}
 
 	.herbergementMarseille{
@@ -94,7 +98,7 @@
 		}
 	}
 	@media screen and (min-width: 950px) {
-		.hebergpopulaire 
+		#hebergpopulaire 
 	{		
 		display: flex;
 		flex-direction: row;
@@ -106,4 +110,5 @@
 	}
 .hebergement{
 	margin-right: 25px;
-}}
+}
+}
