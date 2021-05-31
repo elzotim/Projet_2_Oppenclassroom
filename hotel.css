@@ -12,12 +12,8 @@
 	.footer-container > * {
 		flex: 1;
 	}
-	header{
-		display: flex;
-	}
-
 }
-@media screen and (min-width: 605px) {
+@media screen and (min-width: 600px) {
 	.activities-container {		
 		margin: auto;	
 	}
@@ -49,7 +45,7 @@
 		display: flex;
 		flex-direction: column;
 		border-radius: 20px 20px 20px 20px;	
-		background-color: #f2f2f2;			
+		background-color: #f2f2f2;
 	}
 	.lesPlusPopulaires{
 		border-radius: 20px 20px 20px 20px;	
@@ -61,11 +57,13 @@
 		justify-content: space-between;
         flex-wrap: nowrap;
 		
-			
+
 	}
     .herbergementMarseille >*{ 
-        flex: 1;}
- 
+        flex: 1 100%;
+	}
+   
+	
 	.rechercher{
 		display: block;
 		background-color: #0065fc;
@@ -93,6 +91,7 @@
 			display: flex;
 			flex-direction: column;
 			padding: 1em;
+	
 		}
 		
 	.activity-double-container > * {
@@ -104,11 +103,10 @@
 	{		
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
-		
-		
-		
-		
+		justify-content: space-between;		
+	}
+	#activities{
+		margin: 0 1em;
 	}
 .hebergement{
 	margin-right: 25px;
