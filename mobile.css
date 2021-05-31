@@ -359,7 +359,7 @@ section .filtre .filtre1{
    display: block;
    border-radius: 2em 2em 0 0;
    max-width: 100%;
-   min-height: 10em;
+   min-height: 7em;
    background-size: cover;
    background-position: center center;
    flex: 2;
