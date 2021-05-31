@@ -367,8 +367,8 @@ section .filtre .filtre1{
 .activity h6 {
    font-size: 1em;
    font-weight: bold;
-   margin: 0;
-   padding: 1em;
+   margin:0;
+   padding:1em;
 }
 
 /**********************************le pied de Page************************************************/
