@@ -31,12 +31,9 @@
 		margin-top:0px ;
 		border-bottom:none ;
 	  }
-	#hebergpopulaire 
-	{		
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		margin: 0px 25px;		
+	#hebergpopulaire {
+		margin: auto;	
+	
 	}
 	
 	.hebergement
@@ -44,19 +41,37 @@
 		flex: 2;
 		display: flex;
 		flex-direction: column;
-		border-radius: 20px 20px 20px 20px;	
 		background-color: #f2f2f2;
 	}
 	.lesPlusPopulaires{
-		border-radius: 20px 20px 20px 20px;	
+		display: flex;
+		flex-direction: column;
+		flex-direction: column;	
 	}
-
+	.lespopulaires-section{
+		display: grid;
+		grid-template-columns: repeat(3 ,1fr);
+	}
+	.lesPlusPopulaires .section2 
+	{display: flex;
+	 flex-direction: column;
+	 flex-wrap: nowrap;
+	 
+	}
+	.lesPlusPopulaires .section2 .img img{
+		height: 6em;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+        width:100%;
+	}
+	.container-de-section{
+		margin-left: 10px;
+	}
 	.herbergementMarseille{
 		display: flex;
 		flex-direction:row;
 		justify-content: space-between;
         flex-wrap: nowrap;
-		
 
 	}
     .herbergementMarseille >*{ 
@@ -73,10 +88,6 @@
 			{
 				display: none;
 			}
-		
-		
-		
-	
 	.activities-container {
 			display: flex;
 			max-width: none;
@@ -97,18 +108,56 @@
 	.activity-double-container > * {
 			flex: 1;
 		}
-	}
-	@media screen and (min-width: 950px) {
+	.lesPlusPopulaires .section2 
+		{max-width: auto;
+		
+	}}
+	
+	@media screen and (min-width:1144px) {
 		#hebergpopulaire 
 	{		
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;		
 	}
-	#activities{
-		margin: 0 1em;
-	}
 .hebergement{
 	margin-right: 25px;
+	flex: 2;
+	border-radius: 20px 20px 20px 20px;
+
 }
+.lesPlusPopulaires{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px 20px 20px 20px;
+
+	
+}
+.lespopulaires-section
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.lesPlusPopulaires .section2 
+  {
+	display: grid;
+	grid-template-columns: repeat(2 ,1fr); 
+  }
+  
+  .container-de-section{
+	display: grid;
+	grid-template-rows: 0fr 0.3fr 0.6fr;
+	align-items:flex-end;
+  }
+  
+
+  .lesPlusPopulaires .section2  .img img{
+	border-radius: 20px 0px 0px 20px;
+     min-height: 8em;
+     
+  }
+  
 }

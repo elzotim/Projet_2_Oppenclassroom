@@ -57,7 +57,7 @@ header a{
 .menu a{
    color: black;
    text-decoration: none;
- 
+   border-bottom: 2px solid transparent;
 }
 .menu a:hover{
    color: #0065fc;
@@ -257,7 +257,7 @@ section .filtre .filtre1{
 .afficherplus
 {
    text-decoration: none;
-   margin: 1em 2em;
+   margin: 2em 2em;
    font-weight: bold;
    font-size: 1em;
    color: black;
@@ -266,7 +266,6 @@ section .filtre .filtre1{
 
 .herbergementMarseille div  figure
 { 
-   background-color: white;
    border-radius: 20px;
    box-shadow: 2px 2px 12px #CDCAD1;
    border: 3px solid white;
@@ -285,11 +284,16 @@ section .filtre .filtre1{
 /********************************************************************/
 
  .lesPlusPopulaires
-{
+{  display: flex;
    flex-direction: column;
    background-color: #f2f2f2; 
 }
-  .bloc_titre_populaires {
+  
+.lesPlusPopulaires >*
+{
+   flex: 1;
+}
+.bloc_titre_populaires {
    display: flex;
    font-weight: bold;
    justify-content:space-between;
@@ -299,43 +303,40 @@ section .filtre .filtre1{
    font-size: 13px;
    margin: 0em 2em; 
   }
-.lesPlusPopulaires >*
-{
-   flex: 1;
-}
-  
-  
-.lesPlusPopulaires div .etoiles{
-   display: block;
-   margin-top: 30px;    
-}
-  .etoiles
-{ 
-   color: #0065fc;
-   font-size: 11px;
-   margin-left:auto ;
-}
-   .lesPlusPopulaires .section2 
-{
-   display: flex ;
-   flex-wrap: wrap;
-   flex-direction:row;
+  .lesPlusPopulaires .section2 
+  {display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
    border-radius: 20px 20px 20px 20px;
    border: 3px solid white;
    background-color: white;
-   justify-content:start;
-   margin: 2em 2em;
-}
+   margin: 1em 2em;
+  }
 
 
-.lesPlusPopulaires .section2  img{    
-   height: 7em;
-   border-radius: 20px 0px 0px 20px;
-   object-fit: cover;
-   margin-right:1em;
-   width: 9em;
-    
+  .lesPlusPopulaires .section2  .img img{
+     width: 8em;
+     height: 8em;
+     border-radius: 10px 0px 0px 10px;
+     
+  }
+  
+.lesPlusPopulaires  .section2 .container-de-section{
+   flex: 1;
+   margin-left: 10px;
 }
+.container-de-section{
+	display: grid;
+	grid-template-rows: 0fr 0.3fr 0.6fr;
+	align-items:flex-end;
+  }
+.etoiles
+{ 
+   color: #0065fc;
+   font-size: 11px;
+   
+}
+
 /******************************************************/
 /*********************************************************************************
 */
@@ -346,7 +347,7 @@ section .filtre .filtre1{
    margin: 0em 2em;
 }
 
-.activity {  
+.activite1 {  
    border-radius: 2em 2em 2em 2em;
    margin-bottom: 2em;
    display: flex;
@@ -355,7 +356,7 @@ section .filtre .filtre1{
    
 }
 
-.activity-img {
+.activite1-img {
    display: block;
    border-radius: 2em 2em 0 0;
    max-width: 100%;
@@ -364,7 +365,7 @@ section .filtre .filtre1{
    background-position: center center;
    flex: 2;
 }
-.activity h6 {
+.activité h6 {
    font-size: 1em;
    font-weight: bold;
    margin:0;
