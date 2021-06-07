@@ -57,11 +57,11 @@ header a{
 .menu a{
    color: black;
    text-decoration: none;
-   border-bottom: 2px solid transparent;
+   border-top: 2px solid transparent;
 }
 .menu a:hover{
    color: #0065fc;
-   border-bottom: 2px solid #0065fc;
+   border-top: 2px solid #0065fc;
    margin-top:0px ;
   }
 
@@ -365,7 +365,7 @@ section .filtre .filtre1{
    background-position: center center;
    flex: 2;
 }
-.activité h6 {
+.activite1 h6 {
    font-size: 1em;
    font-weight: bold;
    margin:0;
