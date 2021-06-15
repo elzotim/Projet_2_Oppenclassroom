@@ -326,7 +326,7 @@ section .filtre .filtre1{
 { 
    border-radius: 20px;
    box-shadow: 1px 1px 11px #CDCAD1;
-   border: 0px solid white;
+   border: 2px solid white;
    background-color: white;
    display: flex;
    flex-direction: column;
@@ -374,7 +374,7 @@ section .filtre .filtre1{
    flex-direction: row;
    flex-wrap: nowrap;
    border-radius: 20px;
-   border: 5px solid white;
+   border: 3px solid white;
    background-color: white;
    margin: 1rem 2rem; 
   }
