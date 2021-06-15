@@ -1,12 +1,3 @@
-/*@media screen and (min-width: 520px) {
-	.bloc_filtres{
-   
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	align-content: centers ;
-}
-}*/
 
 @media screen and (min-width: 520px) {
 	.footer-container {
@@ -23,6 +14,7 @@
 	}
 	
 }
+
 @media screen and (min-width: 600px) {
 	
 	header{
@@ -44,53 +36,50 @@
 		border-bottom:none ;
 	  }
 	#hebergpopulaire {
-		
-		margin: 0 25px;	
-	
-	}
-	
-	.hebergement
-	{
-		flex: 2;
-		display: flex;
-		flex-direction: column;
 		background-color: #f2f2f2;
-		
 	}
-	.lesPlusPopulaires{
-		display: flex;
-		flex-direction: column;
-		flex-direction: column;	
-	}
-	.lespopulaires-section{
-		display: grid;
-		grid-template-columns: repeat(3 ,1fr);
-	}
-	.lesPlusPopulaires .section2 
-	{display: flex;
-	 flex-direction: column;
-	 flex-wrap: nowrap;
-	 
-	}
-	.lesPlusPopulaires .section2 .img img{
-		height: 6em;
-        border-radius: 20px 20px 0px 0px;
-        object-fit: cover;
-        width:100%;
-	}
-	.container-de-section{
-		margin-left: 10px;
-	}
-	.herbergementMarseille{
-		display: flex;
-		flex-direction:row;
-		justify-content: space-between;
-        flex-wrap: nowrap;
-
-	}
-    .herbergementMarseille >*{ 
-        flex: 1 100%;
-	}
+	  .lesPlusPopulaires{
+		  display: flex;
+		  flex-direction: column;
+		  
+	  }
+	  .lespopulaires-section{
+		  display: flex;
+		  justify-content: space-between;
+		  
+	  }
+	  .lesPlusPopulaires .section2 
+	  {
+		  flex: 1;
+	display: flex;
+	   flex-direction: column;
+	   flex-wrap: nowrap;
+	   margin: 0 1rem;
+	   
+	  }
+	  .lesPlusPopulaires .section2  img{
+		  height: 6em;
+		  border-radius: 20px 20px 0px 0px;
+		  object-fit: cover;
+		  width:100%;
+	  }
+	  .container-de-section{
+		  margin-left: 10px;
+	  }
+	  /**************************************************************************************/
+	  .herbergementMarseille{
+		  display: flex;
+		  flex-direction:row;
+		  justify-content: start;
+		  flex-wrap: nowrap;
+	  }
+	  .herbergementMarseille .hotel{ 
+		  flex: 1 100%;
+		  margin:  1rem;
+		  border-radius: 20px;
+          border: 5px solid white;
+	  }
+    
    
 	
 	.rechercher{
@@ -131,7 +120,8 @@
 	.lesPlusPopulaires .section2 
 		{max-width: auto;
 		
-	}}
+	}
+}
 		
 	
 	@media screen and (min-width:1144px) {
@@ -146,13 +136,16 @@
 	{		
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;		
+		justify-content: space-between;
+		margin:0rem 2rem;
+		background-color: white;
 	}
 .hebergement{
 	margin-right: 25px;
 	flex: 2;
 	border-radius: 20px 20px 20px 20px;
-
+    background-color:  #f2f2f2; ;
+	
 }
 .lesPlusPopulaires{
 	flex: 1;
@@ -173,6 +166,7 @@
   {
 	display: grid;
 	grid-template-columns: repeat(2 ,1fr); 
+	margin: 1rem;
   }
   
   .container-de-section{
@@ -182,10 +176,11 @@
   }
   
 
-  .lesPlusPopulaires .section2  .img img{
-	border-radius: 20px 0px 0px 20px;
+  .lesPlusPopulaires .section2   img{
      min-height: 8em;
-     
+     border-radius: 20px 0px 0px 20px;
+
   }
   
 }
+

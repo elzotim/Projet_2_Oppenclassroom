@@ -34,7 +34,7 @@ header{
 }
 .nav_logo{
    margin-right: auto;
-   margin-left: 25px;
+   margin-left: 2rem ; 
 }
 .nav_logo img{
    width: 8rem;
@@ -74,13 +74,15 @@ header a{
 
 
 
-/**************************************
-***********************Hebergement-information******************************
-*/
+/***********************************  fORMULAIRE ET les recherches d'hebergement********************/
+/***********************************les recherches d'hebergement********************/
+/***********************************les recherches d'hebergement********************/
+/***********************************les recherches d'hebergement********************/
+
 #formulaire
 { 
    font-family: "Raleway", sans-serif;
-   margin: 25px; 
+   margin: 0 2rem;
    
 }
 #formulaire h3
@@ -92,12 +94,6 @@ header a{
 {   
    font-size: 20px;
 }
-
-/***********************************les recherches d'hebergement********************/
-/***********************************les recherches d'hebergement********************/
-/***********************************les recherches d'hebergement********************/
-/***********************************les recherches d'hebergement********************/
-
 form{
    padding-top: 20px;
    padding-bottom: 40px;
@@ -159,10 +155,8 @@ form  .search
 .bloc_filtres{
    display: flex;
   flex-direction: column;
-  margin: 25px;		
-
+  margin: 0 2rem;
 }
-
 .bloc_cont_filtres{
   display: flex;
   flex-direction: row;
@@ -212,9 +206,7 @@ margin-left: 15px;
  }
  
  .bloc_information {
- margin-top: 30px;
- margin-bottom: 40px;
- margin-left: 20px;
+ margin: 2rem;
  font-size: 13px;
  font-weight: 400;
  display: flex;
@@ -311,35 +303,53 @@ section .filtre .filtre1{
 {
    
    font-size: large;
-   margin: 1em 2em;
+   margin: 1rem 2rem;
 }
 .afficherplus
 {
    text-decoration: none;
-   margin: 2em 2em;
+   margin : 2em 2em 2em 2em;
    font-weight: bold;
    font-size: 1em;
    color: black;
 
 }
 
-.herbergementMarseille div  figure
-{ 
-   border-radius: 20px;
-   box-shadow: 2px 2px 12px #CDCAD1;
-   border: 3px solid white;
-}
-.herbergementMarseille div  figure figcaption ,.herbergementMarseille div  figure span{
-   margin-left: 5px;
+.herbergementMarseille{
+   display: flex;
+   flex-direction:column;
+   flex-wrap: nowrap;
+   margin: 0rem 2rem;
 }
 
-.herbergementMarseille figure  img{
+.herbergementMarseille   .hotel
+{ 
+   border-radius: 20px;
+   box-shadow: 1px 1px 11px #CDCAD1;
+   border: 0px solid white;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+	justify-content: space-between;
+   margin: 10px 0px;
+   padding-bottom: 8px;
+}
+
+.herbergementMarseille .hotel  img{
   
-   height: 6em;
+   height: 7em;
    border-radius: 20px 20px 0px 0px;
    object-fit: cover;
    width:100%;
 }
+.herbergementMarseille .hotel  div{
+  margin:0em 1rem;
+}
+.herbergementMarseille .hotel  .Engras{
+   font-weight: 700;
+ }
+
+
 /********************************************************************/
 
  .lesPlusPopulaires
@@ -347,11 +357,7 @@ section .filtre .filtre1{
    flex-direction: column;
    background-color: #f2f2f2; 
 }
-  
-.lesPlusPopulaires >*
-{
-   flex: 1;
-}
+
 .bloc_titre_populaires {
    display: flex;
    font-weight: bold;
@@ -360,31 +366,28 @@ section .filtre .filtre1{
    flex-direction: row;
    flex-wrap: nowrap;
    font-size: 13px;
-   margin: 0em 2em; 
+   margin: 0rem 2rem;
+   
   }
   .lesPlusPopulaires .section2 
   {display: flex;
    flex-direction: row;
    flex-wrap: nowrap;
-   border-radius: 20px 20px 20px 20px;
-   border: 3px solid white;
+   border-radius: 20px;
+   border: 5px solid white;
    background-color: white;
-   margin: 1em 2em;
+   margin: 1rem 2rem; 
   }
 
 
-  .lesPlusPopulaires .section2  .img img{
-     width: 8em;
+  .lesPlusPopulaires .section2   img{
+     width:10em;
      height: 8em;
      border-radius: 20px 0px 0px 20px;
+     margin-right: 0.6rem;
      
   }
-  
-.lesPlusPopulaires  .section2 .container-de-section{
-   flex: 1;
-   margin-left: 10px;
-}
-.container-de-section{
+  .section2 .container-de-section{
 	display: grid;
 	grid-template-rows: 0fr 0.3fr 0.6fr;
 	align-items:flex-end;
@@ -403,15 +406,14 @@ section .filtre .filtre1{
 /*********************************************************************/
 
 #activities {
-   margin: 25px ;
-   
+   margin: 0rem 2rem; ;
 }
 #activities h3{
    padding-bottom: 15px;
 }
 
 .activite1 {  
-   border-radius: 2em 2em 2em 2em;
+   border-radius: 1em;
    margin-bottom: 2em;
    display: flex;
    flex-direction: column;
@@ -422,7 +424,7 @@ section .filtre .filtre1{
 
 .activite1-img {
    display: block;
-   border-radius: 2em 2em 0 0;
+   border-radius: 1em 1em 0 0;
    max-width: 100%;
    min-height: 7em;
    background-size: cover;
