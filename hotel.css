@@ -38,14 +38,13 @@
 	#hebergpopulaire {
 		background-color: #f2f2f2;
 	}
-	  .lesPlusPopulaires{
-		  display: flex;
-		  flex-direction: column;
-		  
-	  }
-	  .lespopulaires-section{
-		  display: flex;
-		  justify-content: space-between;
+	.lesPlusPopulaires{
+		display: flex;
+		flex-direction: column;
+	}
+	.lespopulaires-section{
+		display: flex;
+		justify-content: space-between;
 		  
 	  }
 	  .lesPlusPopulaires .section2 
@@ -72,6 +71,7 @@
 		  flex-direction:row;
 		  justify-content: start;
 		  flex-wrap: nowrap;
+		  margin: 0 1rem;
 	  }
 	  .herbergementMarseille .hotel{ 
 		  flex: 1 100%;
@@ -166,7 +166,7 @@
   {
 	display: grid;
 	grid-template-columns: repeat(2 ,1fr); 
-	margin: 1rem;
+	margin:  1rem 2rem;
   }
   
   .container-de-section{
