@@ -109,7 +109,7 @@
 	.activity-double-container {
 			display: flex;
 			flex-direction: column;
-			padding: 1em;
+			padding:  1rem ;
 			
 		}
 		
@@ -132,6 +132,9 @@
 			align-items: center;
 			align-content: center ;
 		}
+		.bloc_cont_filtres{
+			margin-left: 20px;
+		  }
 		#hebergpopulaire 
 	{		
 		display: flex;
