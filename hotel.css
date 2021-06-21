@@ -105,14 +105,20 @@
 	.activity-double-container {
 		display: flex;
 		flex-direction: column;
-		padding:  1rem ;
-			
+		padding:  1rem ;		
 	}
 		
 	.activity-double-container > * {
 		flex: 1 ;
 
 		}
+	.activity-double-container:first-child{
+		padding-left: 0;
+
+	}
+	.activity-double-container:last-child{
+		padding-right: 0;
+	}
 	.lesPlusPopulaires .section2 
 		{max-width:none;
 				
@@ -146,6 +152,11 @@
     background-color:  #f2f2f2; 
     padding-top: 20px;
 	
+}
+.afficherplus
+{
+   text-decoration: none;
+   margin : 1em 2em 2em 2em;
 }
 .lesPlusPopulaires{
 	flex: 1;

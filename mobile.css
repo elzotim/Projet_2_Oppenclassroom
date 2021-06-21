@@ -38,6 +38,7 @@ header{
 }
 .nav_logo img{
    width: 8rem;
+   object-fit: cover;
 }
 header a{
    padding: 30px 40px;
@@ -182,6 +183,7 @@ margin-left: 15px;
    padding-right: 30px;
    cursor: pointer;
    justify-content: center;
+   margin-bottom:10px ;
  }
 .filtre i{
    width: 16px;
@@ -288,7 +290,10 @@ section .filtre .filtre1{
    flex-direction:column-reverse;
    background-color:white;
 }
-
+#hebergpopulaire a{
+   text-decoration: none;
+   color: #000;
+}
 .hebergement
 {
    display: flex;
@@ -329,6 +334,7 @@ section .filtre .filtre1{
 	justify-content: space-between;
    margin: 10px 0px;
    padding-bottom: 8px;
+   max-height: 170px;
 }
 
 .herbergementMarseille .hotel  img{
@@ -340,6 +346,10 @@ section .filtre .filtre1{
 }
 .herbergementMarseille .hotel  div{
   margin:0em 1rem;
+}
+.herbergementMarseille .hotel > *{
+   line-height: 1.4rem;
+
 }
 .herbergementMarseille .hotel  .Engras{
    font-weight: 700;
@@ -373,6 +383,7 @@ section .filtre .filtre1{
    border: 3px solid white;
    background-color: white;
    margin: 1rem 2rem; 
+  
   }
 
 
@@ -415,7 +426,12 @@ section .filtre .filtre1{
    flex-direction: column;
    box-shadow: 2px 2px 20px #f2f2f2; 
    
-   
+}
+
+.activity-double-container {
+   text-decoration: none;
+     color: #000;
+      
 }
 
 .activite1-img {
@@ -426,6 +442,7 @@ section .filtre .filtre1{
    background-size: cover;
    background-position: center center;
    flex: 2;
+   object-fit: cover;
 }
 .activite1 h6 {
    font-size: 1em;
