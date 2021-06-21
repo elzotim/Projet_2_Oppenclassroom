@@ -1,11 +1,7 @@
-
 @media screen and (min-width: 520px) {
 	.footer-container {
-		
 		display: flex;
-		max-width: auto;
 		margin: auto;
-		
 	}
 	
 	.footer-container > * {
@@ -107,19 +103,19 @@
 			padding-top: 20px ;
 		 }
 	.activity-double-container {
-			display: flex;
-			flex-direction: column;
-			padding:  1rem ;
+		display: flex;
+		flex-direction: column;
+		padding:  1rem ;
 			
-		}
+	}
 		
 	.activity-double-container > * {
-			flex: 1 ;
+		flex: 1 ;
 
 		}
 	.lesPlusPopulaires .section2 
-		{max-width: auto;
-		
+		{max-width:none;
+				
 	}
 }
 		
@@ -147,7 +143,8 @@
 	margin-right: 25px;
 	flex: 2;
 	border-radius: 20px 20px 20px 20px;
-    background-color:  #f2f2f2; ;
+    background-color:  #f2f2f2; 
+    padding-top: 20px;
 	
 }
 .lesPlusPopulaires{
@@ -155,7 +152,7 @@
 	display: flex;
 	flex-direction: column;
 	border-radius: 20px 20px 20px 20px;
-
+    padding-top: 20px;
 	
 }
 .lespopulaires-section

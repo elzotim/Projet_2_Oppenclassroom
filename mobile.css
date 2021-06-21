@@ -169,7 +169,7 @@ margin-left: 15px;
 }
 
 
- .filtre{
+.filtre{
    font-size: 15px;
    height: 43px;
    font-weight: bold;
@@ -183,7 +183,7 @@ margin-left: 15px;
    cursor: pointer;
    justify-content: center;
  }
- .filtre i{
+.filtre i{
    width: 16px;
    align-content: center;
    padding: 16px;
@@ -195,20 +195,22 @@ margin-left: 15px;
    margin-left: -6px;
    text-align: center;
  }
- .filtre:hover i{
+.filtre:hover i{
    color: #deebff;
    background-color: #0065fc;
  }
  
- .bloc_information {
- margin: 2rem;
- font-size: 13px;
- font-weight: 400;
- display: flex;
- flex-direction: row;
- align-items: center;
- }
- .bloc_information p{
+.bloc_information {
+
+
+   margin: 2rem;
+   font-weight: 400;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   font-size: 13px;
+}
+.bloc_information p{
    margin-left: 5px;
  }
  
@@ -226,7 +228,6 @@ section .filtre .titre
 }
 
 section .filtre .filtre1{
-    
    font-size: 15px;
    height: 43px;
    font-weight: bold;
@@ -275,7 +276,7 @@ section .filtre .filtre1{
 }
   .bloc_information p
 {
-    margin-left: 15px;
+   margin-left: 15px;
 }
 /*********************************************************************************/
 /*la grande section*/
@@ -364,8 +365,8 @@ section .filtre .filtre1{
    margin: 0rem 2rem;
    
   }
-  .lesPlusPopulaires .section2 
-  {display: flex;
+.lesPlusPopulaires .section2{
+   display: flex;
    flex-direction: row;
    flex-wrap: nowrap;
    border-radius: 20px;
@@ -375,14 +376,14 @@ section .filtre .filtre1{
   }
 
 
-  .lesPlusPopulaires .section2   img{
-     width:10em;
-     height: 8em;
-     border-radius: 20px 0px 0px 20px;
-     margin-right: 0.6rem;
+.lesPlusPopulaires .section2   img{
+   width:10em;
+   height: 8em;
+   border-radius: 20px 0px 0px 20px;
+   margin-right: 0.6rem;
      
   }
-  .section2 .container-de-section{
+.section2 .container-de-section{
 	display: grid;
 	grid-template-rows: 0fr 0.3fr 0.6fr;
 	align-items:flex-end;
@@ -441,10 +442,10 @@ footer {
 }
 
 footer a {
-    display:flex;
-    text-decoration: none;
-    padding-top: 1em;
-    color: black;
+   display:flex;
+   text-decoration: none;
+   padding-top: 1em;
+   color: black;
 }
 
 .footer-container {
