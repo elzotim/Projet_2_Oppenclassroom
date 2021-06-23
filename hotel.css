@@ -95,12 +95,15 @@
 		
 		.activities-container > * {
 			flex: 1;
-			
-			
 		}
 		
 		 #activities  {
 			padding-top: 20px ;
+		 }
+		 .activite1 {  
+			border:solid  1px #f2f2f2; 
+			box-shadow: 1px 1px 15px#f2f2f2;
+			
 		 }
 	.activity-double-container {
 		display: flex;
@@ -156,7 +159,7 @@
 .afficherplus
 {
    text-decoration: none;
-   margin : 1em 2em 2em 2em;
+   margin : 2em 2em 3em 2em;;
 }
 .lesPlusPopulaires{
 	flex: 1;
@@ -184,6 +187,7 @@
 	display: grid;
 	grid-template-rows: 0fr 0.3fr 0.6fr;
 	align-items:flex-end;
+	padding-top: 5px;
   }
   
 
