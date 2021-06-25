@@ -24,6 +24,7 @@
 
 	.menu a{
 		border-top: 2px solid transparent;
+		border-bottom: none; 
 	}
     .menu a:hover{
 		color: #0065fc;

@@ -1,120 +1,128 @@
-   <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="mobile.css">
-        <link rel="stylesheet" href="hotel.css">
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/png" href="Preojet2Reservia/images/logo/Reservia@3x.png" >
-        <title> RéserviaHotel</title>
-    </head>
-    <body>
-        <div id="bloc-page">
-            <!--En tete-->
-            <header>
-                <div class="nav_logo"><img src="Preojet2Reservia/images/logo/Reservia@3x.png"  alt="Logo Réservia"></div>
-                <nav class="menu">
-                    <a href="#hebergpopulaire" id="menu_hebergements">Hébergements</a>
-                    <a href="#activities" id="menu_activites">Activités</a>
-                </nav>    
-                <div id="bloc_inscrire"><a href="inscription.html">S'inscrire</a> </div>
-            </header>
-            <!--Le corps-->
-            <!--Hebergement -->
-            <section id="formulaire">          
-                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-                <h3>En plein centre-ville ou en pleine nature</h3>
-                
-                <form>
-                    <span class="map"><i class="fas fa-map-marker-alt"></i></span>
-                    <input type="text" class="search" placeholder="Marseille , FRANCE">
-                    <button class="loupe">
-                        <span class="rechercher">Rechercher</span>
-                        <span><i class="fas fa-search rechercher1" aria-hidden="true" ></i></span>
-                    </button>              
-                </form>               
-            </section>
-            
-            
-            <div class="bloc_filtres">
-                <h2 class="titre_filtre">Filtres</h2>
-                <div class="bloc_cont_filtres">
-                    <span class="filtre"><i class="fas fa-money-bill-wave"></i>Economique</span>
-                    <span class="filtre"><i class="fas fa-child"></i>Familial</span>
-                    <span class="filtre"><i class="fas fa-heart"></i>Romantique</span>
-                    <span class="filtre"><i class="fas fa-dog"></i>Animaux autorisés</span>   
-                </div>
-            </div>
-            <div class="bloc_information">
-                <span class="fa-stack" style="vertical-align: center;font-size: small;">
-                    <i class="far fa-circle fa-stack-2x" style="color: #f2f2f2;"></i>
-                    <i class="fas fa-info fa-stack-1x" style="color: #0065fc;"></i></span>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>  
-                <section id="hebergpopulaire">
+<!DOCTYPE html>
+<html lang="fr">
 
-                        <section class="hebergement"> 
-                        <h2>Hébergement à Marseille</h2>
-                        <section class="herbergementMarseille" >
-                            <a href="#" class="hotel">
-                                <img src="Preojet2Reservia/images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
-                                <div class="Engras"> Auberge la cannebière</div>
-                                <div>Nuit à Partir de 25<strong class="gras">€</strong> </div>
-                                <div class="etoiles">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star" style="color: #c9c5c5;"></i>
-                                    <i class="fas fa-star"></i>                                    
-                                </div>
-                            </a>
-                            <a href="#" class="hotel">
-                                <img src="Preojet2Reservia/images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
-                                <div class="Engras"> Hôtel du port </div>
-                                <div>Nuit à Partir de 52<strong class="gras">€</strong></div>
-                                <div class="etoiles">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                </div>
-                            </a>
-                            <a href="#" class="hotel">
-                                <img src="Preojet2Reservia/images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
-                                <div class="Engras">Hôtel Les mouettes </div>
-                                <div>Nuit à Partir de 76<strong class="gras">€</strong></div>
-                                <div class="etoiles">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star" style="color: #c9c5c5;"></i>
-                                </div>
-                            </a>
-                           
-                        </section>
-                        <section class="herbergementMarseille">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="hotel.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Preojet2Reservia/images/logo/Reservia@3x.png">
+    <title> RéserviaHotel</title>
+</head>
+
+<body>
+    <div id="bloc-page">
+        <!--En tete-->
+        <header>
+            <div class="nav_logo"><img src="Preojet2Reservia/images/logo/Reservia@3x.png" alt="Logo Réservia"></div>
+            <nav class="menu">
+                <a href="#hebergpopulaire" id="menu_hebergements">Hébergements</a>
+                <a href="#activities" id="menu_activites">Activités</a>
+            </nav>
+            <div id="bloc_inscrire"><a href="inscription.html">S'inscrire</a> </div>
+        </header>
+        <!--Le corps-->
+        <!--Hebergement -->
+        <section id="formulaire">
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <h3>En plein centre-ville ou en pleine nature</h3>
+
+            <form>
+                <span class="map"><i class="fas fa-map-marker-alt"></i></span>
+                <input type="text" class="search" placeholder="Marseille , FRANCE">
+                <button class="loupe">
+                    <span class="rechercher">Rechercher</span>
+                    <span><i class="fas fa-search rechercher1" aria-hidden="true"></i></span>
+                </button>
+            </form>
+        </section>
+
+
+        <div class="bloc_filtres">
+            <h2 class="titre_filtre">Filtres</h2>
+            <div class="bloc_cont_filtres">
+                <span class="filtre"><i class="fas fa-money-bill-wave"></i>Economique</span>
+                <span class="filtre"><i class="fas fa-child"></i>Familial</span>
+                <span class="filtre"><i class="fas fa-heart"></i>Romantique</span>
+                <span class="filtre"><i class="fas fa-dog"></i>Animaux autorisés</span>
+            </div>
+        </div>
+        <div class="bloc_information">
+            <span class="fa-stack">
+                <i class="far fa-circle fa-stack-2x" style="color: #f2f2f2;"></i>
+                <i class="fas fa-info fa-stack-1x" style="color: #0065fc;"></i>
+            </span>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+        <section id="hebergpopulaire">
+
+            <section class="hebergement">
+                <h2>Hébergement à Marseille</h2>
+                <section class="herbergementMarseille">
                     <a href="#" class="hotel">
-                        <img src="Preojet2Reservia/images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
-                        <div class="Engras" > Hôtel de la  mer</div>
+                        <img src="Preojet2Reservia/images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                            alt="">
+                        <div class="Engras"> Auberge la cannebière</div>
+                        <div>Nuit à Partir de 25<strong class="gras">€</strong> </div>
+                        <div class="etoiles">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star" style="color: #c9c5c5;"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="hotel">
+                        <img src="Preojet2Reservia/images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                            alt="">
+                        <div class="Engras"> Hôtel du port </div>
+                        <div>Nuit à Partir de 52<strong class="gras">€</strong></div>
+                        <div class="etoiles">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </a>
+                    <a href="#" class="hotel">
+                        <img src="Preojet2Reservia/images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                            alt="">
+                        <div class="Engras">Hôtel Les mouettes </div>
+                        <div>Nuit à Partir de 76<strong class="gras">€</strong></div>
+                        <div class="etoiles">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star" style="color: #c9c5c5;"></i>
+                        </div>
+                    </a>
+
+                </section>
+                <section class="herbergementMarseille">
+                    <a href="#" class="hotel">
+                        <img src="Preojet2Reservia/images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                            alt="">
+                        <div class="Engras"> Hôtel de la mer</div>
                         <div>Nuit à Partir de 46 <strong class="gras">€</strong></div>
                         <div class="etoiles">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star" style="color: #c9c5c5;"></i>
-                            <i class="fas fa-star" style="color: #c9c5c5;" ></i>
+                            <i class="fas fa-star" style="color: #c9c5c5;"></i>
                         </div>
-                        
+
                     </a>
-                            
+
                     <a href="#" class="hotel">
-                        <img src="Preojet2Reservia/images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+                        <img src="Preojet2Reservia/images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                            alt="">
                         <div class="Engras">Auberge le Panier</div>
                         <div>Nuit à Partir de 23<strong class="gras">€</strong></div>
                         <div class="etoiles">
@@ -127,8 +135,9 @@
                     </a>
 
                     <a href="#" class="hotel">
-                        <img src="Preojet2Reservia/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
-                        <div class="Engras" >Hotel chez Amina</div>
+                        <img src="Preojet2Reservia/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                            alt="">
+                        <div class="Engras">Hotel chez Amina</div>
                         <div>Nuit à Partir de 76<strong class="gras">€</strong></div>
                         <div class="etoiles">
                             <i class="fas fa-star"></i>
@@ -138,151 +147,155 @@
                             <i class="fas fa-star"></i>
                         </div>
                     </a>
-                        </section>
-                        <a href="" class="afficherplus">Afficher plus</a> 
-                    </section>
-                    <aside class="lesPlusPopulaires">
-                        <div class="bloc_titre_populaires">
-                            <h2>Les plus populaires</h2>
-                            <p><i class="fas fa-chart-line"></i></p>
-                        </div>
-                        <div class="lespopulaires-section">
-                        <a href="" class="section2">
-                            <div class="img">
-                                <img src="Preojet2Reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
-                           </div>   
-                            <div class="container-de-section">
-                                <div><strong>Hôtel Le soleil du matin</strong></div>
-                                <div>Nuit à Partir de 128<strong class="gras">€</strong></div> 
-                                <div class="etoiles">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </div>          
-                        </a>
-                        <a href="" class="section2">
-                             <div class="img">
-                             <img src="Preojet2Reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
-                             </div>
-                            <div  class="container-de-section">
-                                <div><strong>Au coeur de l'eau Chambres d'hôtes</strong></div>
-                                <div> Nuit à Partir de 71<strong class="gras">€</strong></div> 
-                                <div class="etoiles">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star" style="color: #c9c5c5;"></i>
-                                </div>
-                            </div>         
-                        </a>
-                        <a href="" class="section2">
-                            <div class="img">
-                                <img src="Preojet2Reservia/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
-                            </div>
-                                <div class="container-de-section">
-                                    <div> <strong> Hôtel Tout Bleu et Blanc </strong></div>
-                                    <div> Nuit à Partir de 68<strong class="gras">€</strong></div>
-                                    <div class="etoiles">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star" style="color: #c9c5c5;"></i>
-                                    </div>
-                                </div>
-                        </a>
-                    </div>
-                    </aside>
                 </section>
-                
-                <div id="activities">                    
-                    <h3>Activités à Marseille</h3>                  
-                    <div class="activities-container" >      
-                        <a href="" class="activity-double-container">
-                            <div class="activite1">
-                             <div class="activite1-img"
-                                style="background-image: url(Preojet2Reservia/images/activites/4_small/1.jpg);">
-                             </div>
-                             <h6>Vieux port</h6>
-                            </div>
-                        </a >
-                    
-                    <a href="" class="activity-double-container">
-                        <div class="activite1 ">
-                            <div class="activite1-img"
-                            style="background-image: url(Preojet2Reservia/images/activites/4_small/2.jpg);">
-                            </div>
-                            <h6>Fort de Pomègues</h6>
-                        </div>                 
-                    <div class="activite1">
-                            <div class="activite1-img"
-                            style="background-image: url(Preojet2Reservia/images/activites/4_small/3.jpg);">
-                            </div>
-                            <h6>Ile de Frioul</h6>
+                <a href="" class="afficherplus">Afficher plus</a>
+            </section>
+            <aside class="lesPlusPopulaires">
+                <div class="bloc_titre_populaires">
+                    <h2>Les plus populaires</h2>
+                    <p><i class="fas fa-chart-line"></i></p>
                 </div>
-            </a>
-            
-            <a href="" class="activity-double-container">
-                <div class="activite1">
-                    <div class="activite1-img"
-                    style="background-image: url(Preojet2Reservia/images/activites/4_small/4.jpg);">
+                <div class="lespopulaires-section">
+                    <a href="" class="section2">
+                        <div class="img">
+                            <img src="Preojet2Reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="">
+                        </div>
+                        <div class="container-de-section">
+                            <div><strong>Hôtel Le soleil du matin</strong></div>
+                            <div>Nuit à Partir de 128<strong class="gras">€</strong></div>
+                            <div class="etoiles">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="section2">
+                        <div class="img">
+                            <img src="Preojet2Reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                alt="">
+                        </div>
+                        <div class="container-de-section">
+                            <div><strong>Au coeur de l'eau Chambres d'hôtes</strong></div>
+                            <div> Nuit à Partir de 71<strong class="gras">€</strong></div>
+                            <div class="etoiles">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star" style="color: #c9c5c5;"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="section2">
+                        <div class="img">
+                            <img src="Preojet2Reservia/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                alt="">
+                        </div>
+                        <div class="container-de-section">
+                            <div> <strong> Hôtel Tout Bleu et Blanc </strong></div>
+                            <div> Nuit à Partir de 68<strong class="gras">€</strong></div>
+                            <div class="etoiles">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star" style="color: #c9c5c5;"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </aside>
+        </section>
+
+        <div id="activities">
+            <h3>Activités à Marseille</h3>
+            <div class="activities-container">
+                <a href="" class="activity-double-container">
+                    <div class="activite1">
+                        <div class="activite1-img"
+                            style="background-image: url(Preojet2Reservia/images/activites/4_small/1.jpg);">
+                        </div>
+                        <h6>Vieux port</h6>
                     </div>
-                <h6>Parc National des Calanques</h6>
+                </a>
+
+                <a href="" class="activity-double-container">
+                    <div class="activite1 ">
+                        <div class="activite1-img"
+                            style="background-image: url(Preojet2Reservia/images/activites/4_small/2.jpg);">
+                        </div>
+                        <h6>Fort de Pomègues</h6>
+                    </div>
+                    <div class="activite1">
+                        <div class="activite1-img"
+                            style="background-image: url(Preojet2Reservia/images/activites/4_small/3.jpg);">
+                        </div>
+                        <h6>Ile de Frioul</h6>
+                    </div>
+                </a>
+
+                <a href="" class="activity-double-container">
+                    <div class="activite1">
+                        <div class="activite1-img"
+                            style="background-image: url(Preojet2Reservia/images/activites/4_small/4.jpg);">
+                        </div>
+                        <h6>Parc National des Calanques</h6>
+                    </div>
+                </a>
+
+
+                <a href="" class="activity-double-container">
+                    <div class="activite1">
+                        <div class="activite1-img"
+                            style="background-image: url(Preojet2Reservia/images/activites/4_small/5.jpg);">
+                        </div>
+                        <h6>Notre-Dame-de-la-Garde</h6>
+                    </div>
+
+                    <div class="activite1">
+                        <div class="activite1-img"
+                            style="background-image: url(Preojet2Reservia/images/activites/4_small/6.jpg);">
+                        </div>
+                        <h6>Parc Longchamp</h6>
+                    </div>
+                </a>
+
+
             </div>
-        </a>
-        
-        
-        <a href="" class="activity-double-container">
-            <div class="activite1">
-                <div class="activite1-img"
-                style="background-image: url(Preojet2Reservia/images/activites/4_small/5.jpg);">
+
+        </div>
+
+
+        <footer>
+            <div class="footer-container">
+                <div class="bloc">
+                    <h4>À propos</h4>
+                    <a href="#">Fonctionnement du site</a>
+                    <a href="#">Conditions générales de vente</a>
+                    <a href="#">Données et confidentialité</a>
+                </div>
+                <div class="bloc">
+                    <h4>Nos hébergements</h4>
+                    <a href="#">Charte de qualité</a>
+                    <a href="#">Soumettre votre hôtel</a>
+                </div>
+                <div class="bloc">
+                    <h4>Assistance</h4>
+                    <a href="#">Centre d'aide</a>
+                    <a href="#">Nous contacter</a>
+                </div>
             </div>
-            <h6>Notre-Dame-de-la-Garde</h6>
-           </div>
-        
-        <div class="activite1">
-            <div class="activite1-img"
-            style="background-image: url(Preojet2Reservia/images/activites/4_small/6.jpg);">
-        </div>
-        <h6>Parc Longchamp</h6>
+
+        </footer>
+
+
     </div>
-</a>
-
-
-</div>
-
-</div>
-
-
-<footer>
-    <div class="footer-container">
-        <div class="bloc">
-            <h4>À propos</h4>
-            <a href="#">Fonctionnement du site</a>
-            <a href="#">Conditions générales de vente</a>
-            <a href="#">Données et confidentialité</a>
-        </div>
-        <div class="bloc">
-            <h4>Nos hébergements</h4>
-            <a href="#">Charte de qualité</a>
-            <a href="#">Soumettre votre hôtel</a>
-        </div>
-        <div class="bloc">
-            <h4>Assistance</h4>
-            <a href="#">Centre d'aide</a>
-            <a href="#">Nous contacter</a>
-        </div>
-    </div>
-    
-</footer>
-
-
-</div>
-<script src="https://kit.fontawesome.com/4cc349e357.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4cc349e357.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
